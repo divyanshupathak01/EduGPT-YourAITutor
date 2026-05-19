@@ -40,9 +40,9 @@ Make sure your have python 3.10+ and run this command to setup environment:
 
 `make venv`
 
-Create `.env` file and put your Open AI Key there by specifying a line:
+Create `.env` file and put your groq Key there by specifying a line:
 
-`OPENAI_API_KEY=sk-xxx`
+`GROQ_API_KEY=gsk-xxx`
 
 ## Usage
 
@@ -59,7 +59,7 @@ To interact with this AI Instructor:
 
 ## Contact Us
 
-For questions, you can [contact the repo author](mailto:huynhquynhanh2003@gmail.com).
+For questions, you can [contact the repo author](mailto:divyanshupathak01@gmail.com).
 
 
 ## Contributing
