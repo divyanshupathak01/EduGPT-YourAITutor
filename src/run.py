@@ -65,4 +65,4 @@ with gr.Blocks() as demo:
             bot, chatbot, chatbot
         )
         clear.click(lambda: None, None, chatbot, queue=False)
-demo.queue().launch(debug=True, share=True)
+demo.queue().launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
